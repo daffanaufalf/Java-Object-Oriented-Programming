@@ -1,13 +1,9 @@
 class VicePresident extends Manager {
-    public static void main(String[] args) {
+    VicePresident(String name) {
+        super(name);
+    }
 
-        var manager = new Manager();
-        manager.name = "Daffa";
-        manager.sayHello("Gugul");
-
-        var vp = new VicePresident();
-        vp.name = "Akmal";
-        vp.sayHello("Gugul");
-
+    void sayHello(String name) {
+        System.out.println("Hi " + name + ", My Name Is VP " + this.name);
     }
 }
