@@ -12,6 +12,6 @@ public class ProductApp {
         Product product2 = new Product("MacBook Pro", 30_000_000);
 
         System.out.println(product.equals(product2));
-
+        System.out.println(product.hashCode() == product2.hashCode());
     }
 }
