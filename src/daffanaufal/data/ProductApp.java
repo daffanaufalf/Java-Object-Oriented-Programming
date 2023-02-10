@@ -6,5 +6,12 @@ public class ProductApp {
 
         System.out.println(product.name);
         System.out.println(product.price);
+
+        System.out.println(product);
+
+        Product product2 = new Product("MacBook Pro", 30_000_000);
+
+        System.out.println(product.equals(product2));
+
     }
 }
