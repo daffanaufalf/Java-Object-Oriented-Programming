@@ -1,3 +1,1 @@
-# Belajar Java Object Oriented Programming
-
-Hello World!
+# Learn Java Object Oriented Programming
