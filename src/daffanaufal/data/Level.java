@@ -1,5 +1,8 @@
 package daffanaufal.data;
 
+import daffanaufal.annotation.Fancy;
+
+@Fancy(name = "Level", tags = {"enum", "java"})
 public enum Level {
     STANDARD("Standard Level"),
     PREMIUM("Premium Level"),

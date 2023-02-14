@@ -1,10 +1,13 @@
 package daffanaufal.application;
 
+import daffanaufal.annotation.Fancy;
 import daffanaufal.data.LoginRequest;
 import daffanaufal.error.ValidationException;
 import daffanaufal.util.ValidationUtil;
 
 public class ValidationApp {
+    @Fancy(name = "ValidationApp", tags = {"method", "java"})
+
     public static void main(String[] args) {
 
         LoginRequest loginRequest = new LoginRequest("daffa", "password");
